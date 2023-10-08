@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root {
+    --bg--color:black;
+    --text--color:white;
+}
+
+p {
+    border: .2rem solid var(--bg--color);
+    padding: 4rem 10%;
+    font-size: larger;
+    font-weight: 600;
+    min-height: 15rem;
+}
